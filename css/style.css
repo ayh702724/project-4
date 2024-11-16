@@ -1,0 +1,498 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid img{
+    height:60px ;
+    width:60px ;
+}
+.form-control{
+    width:400px ;
+}
+    .btn-0{
+    margin-left:30px ;}
+    .btnm{
+        margin-left: 290px;
+        margin-right:25px ;
+    }
+    .btn-0:hover{
+        background-color: #0B192C;
+        color:white; 
+    }
+.navbar-brand{
+    margin-left:30px;}
+.border{
+    height:50px ;
+    margin-right:30px ;}
+    .carousel-item img{
+    height:100vh ;
+    width:100% ;
+}
+.carousel-caption{
+    height:200px ;
+    width:70%;   
+    background-color: rgba(0, 255, 255, 0.327);
+    }
+.carousel-caption .btn{
+    margin-left:10px ;
+    margin-top:20px ;
+    position: relative;}
+.carousel-caption h5{
+    margin-bottom:15px ;}
+.side-icons {
+position:fixed ;
+z-index:700;
+top:300px ;
+right:30px ;
+font-size:55px ;
+}
+.div1{
+    background-color:#387478;
+    width:100% ;
+    margin-right:50px ;
+}   
+.div2{
+    height:150px ;
+    margin-bottom:15px ;
+    padding-top:30px ;
+    font-size:50px ;}
+.div3{
+    height:100px ;
+    width:1500px ;margin-left:10px ;        }
+.div3 p{
+    text-transform: capitalize;}
+    .div4{
+        height:280px ;
+        width:98% ;   
+         background-color:#7AB2D3;
+        margin:auto ;
+    }
+    .control{
+    width:95% ;
+    margin: auto;
+    
+}
+.aya{
+    width:1500px ;
+
+}
+.close{
+    margin-left:160px ;
+}
+.div5{
+    height:400px ;
+    width:100vw ;
+    background-image:url(../images/Red-Sea-Dray-Van-Beeck-Medium-1.jpg) ;
+    background-attachment:fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div6{
+    height:100px ;
+    width:100vw;
+    margin-bottom:100px ;
+   }
+   .card-x{
+    display: flex;
+justify-content: space-evenly;
+    align-items:center;
+
+   }
+   .card-y{
+    display: flex;
+justify-content: space-evenly;
+    align-items:center;
+   }
+   .card-z{
+    display: flex;
+justify-content: space-evenly;
+    align-items:center;
+   }
+.div11{
+    margin-top:100px ;
+    width:100vw ;
+    height:375px;
+    background-image:url(../images/vistas-mar-rojo.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;}
+.card:before{
+    position: absolute;
+    z-index: 1;
+    content:" ";
+    width:0% ;
+    height:0% ;
+bottom:0;
+right: 0;
+    background-color:#432e545b;
+    opacity: 0;
+}
+.card:hover::before{
+    width:100% ;
+    height:100% ;
+    opacity: 1;
+    transition:2s ;
+}
+.card:after{
+    position: absolute;
+    z-index: 1;
+    content:" ";
+    width:0% ;
+    height:0% ;
+    top:0 ;
+left:0;
+    background-color:#432e5481;
+    opacity: 0;
+}
+.card:hover::after{
+    width:100% ;
+    height:100% ;
+    opacity: 1;
+    transition:2s ;}
+.hr{
+    width:100vw ;
+    height:3px ;
+    background-color: black;
+}
+.btn-09:hover{
+background-color: #0b192c6c;
+color:white ;
+}
+.hr{
+    margin-top:200px ;
+}
+.dropdown-menu{
+position: absolute;
+z-index: 1;
+}
+.icons{
+position: fixed;
+z-index:2 ;}    
+.div202 a{
+margin-right:10px ;
+text-decoration: none;
+}
+.btny2
+{
+    margin-top:90px ;
+    margin-left:320px ;
+    height:83px ;
+    justify-self: start;
+    align-self:center ;
+}
+.modal-backdrop.show{
+    z-index: -1;
+}
+.p6{
+    padding-top: 280px ;
+    padding-left:25px ;
+}
+/*3card*/
+
+.div12{
+    width:100% ;
+    padding-top:40px ;
+    padding-bottom:60px ;
+}
+.img-x{
+    margin-top:100px ;
+    position: relative;
+    }
+.img-x img{
+    height: 350px;
+    width:100% ;
+    border-radius:10px ;
+}
+.img-x .overlay-x{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left:10;
+    width:93.7% ;
+    height:100% ;
+    background-color: rgba(0, 0, 0, 0.597);
+    opacity:1 ;
+    border:2px solid rgba(0, 0, 0, 0.61) ;
+    border-radius:10px ;
+}
+.img-x:hover{
+    transform: scale(.9,.9);
+}
+
+.container-1{
+    justify-content: space-evenly;
+    margin: auto;
+    width:80% ;
+}
+.p-x{
+    position: absolute;
+    z-index: 2;
+    margin-top: -320px;
+    color:white ;
+    margin-left:20px ;
+}
+.img-1{
+    position: absolute;
+    z-index: 2;
+    margin-top:-170px ;
+    margin-left:10px ;
+    }
+    .img-1 img{
+height:120px ;  
+width:120px ;
+border-radius:50% ;
+    }
+    .img-y{
+        margin-top:100px ;
+        position: relative;
+    }
+    .img-y img{
+        height: 350px;
+        width:100% ;
+        border-radius:10px ;
+    }
+    .img-y .overlay-y{
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left:10;
+        width:93.7% ;
+        height:100% ;
+        background-color: rgba(0, 0, 0, 0.597);
+        opacity:1 ;
+        border:2px solid rgba(0, 0, 0, 0.685) ;
+        border-radius:10px ;
+    }           
+     .img-y:hover{
+        transform: scale(.9,.9);
+    }
+    .p-y{
+        position: absolute;
+        z-index: 2;
+        margin-top: -320px;
+        color:white ;
+margin-left:20px ;
+    }
+    .img-2{
+        position: absolute;
+        z-index: 2;
+        margin-top:-170px ;
+        margin-left:10px ;
+        }
+        .img-2 img{
+    height:120px ;  
+  width:120px ;
+    border-radius:50% ;
+            }
+        .img-z{
+            margin-top:100px ;
+            position: relative;
+}
+        .img-z img{
+            height: 350px;
+            width:100% ;
+            border-radius:10px ;
+        }
+        .img-z .overlay-z{
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left:10;
+            width:93.7% ;
+            height:100% ;
+            background-color: rgba(0, 0, 0, 0.597);
+            opacity:1 ;
+            border:2px solid rgba(0, 0, 0, 0.644) ;
+            border-radius:10px ;
+        }
+        .img-z:hover{
+            transform: scale(.9,.9);
+        }
+        
+        .p-z{
+            position: absolute;
+            z-index: 2;
+            margin-top: -320px;
+            color:white ;
+margin-left: 20px;
+        }
+        .img-3{
+            position: absolute;
+            z-index: 2;
+            margin-top:-170px ;
+            margin-left:10px ;
+            }
+            .img-3 img{
+        height:120px ;  
+        width:120px ;
+        border-radius:50% ;
+                    }
+
+          .p-k{
+            margin-top:220px ;
+          }
+      /* four card*/   
+.div-card-1{
+display:flex ;
+width:100% ;
+    background-color:#F5F5F5;
+        margin: auto;
+    margin-top:100px ;
+}
+.div-card-f{
+    margin-top:40px ;
+}
+.div-card-1 img{
+  height:350px ;
+    width:34% ;
+   clip-path: polygon(19% 0, 100% 0, 100% 100%, 30% 100%);
+}
+.card-p{
+width:66% ;
+margin-left:40px ;
+}
+.card-img{
+    width:30% ;
+}
+.card-img img{
+    width:385px ;    
+}
+.btn-01:hover{
+background-color: #061529;
+color:white ;
+}
+@media (max-width: 560px) {
+    .card-img img {   
+        clip-path: none;
+        height:150px;
+    }
+.div-card-1{
+    width:90% ;
+    height:40% ;
+    padding:0 ;    
+}
+.card-p{
+width:100% ;
+margin-left:0 ;
+}
+}
+.div-card-2 img{
+    height:350px ;
+    width:34%;  
+      clip-path: polygon(0 0, 79% 0, 69% 100%, 0% 110%);
+        } 
+.div-img2{
+    width:27% ;
+}
+.div-img2 img {
+width:385px ;
+}
+ .div-card-2{
+display: flex;
+width:100% ;
+background-color:black   ;
+margin:auto ;
+margin-top:40px ;
+justify-content: flex-start;
+}
+ .card-p2{
+    width:70% ;
+    color:white ;
+}@media (max-width: 560px) {
+    .div-img2 img {   
+        clip-path: none;
+        height:150px;
+    }
+.div-card-2{
+    width:90% ;
+    height:40% ;
+    padding-left:12px ;    
+}
+.card-p2{
+width:100% ;
+margin-left:0 ;
+}
+}.overlay2{
+    width:50px ;
+margin-top:5px ;
+margin-bottom:10px ;
+}
+
+.div-card-1:hover .overlay2 {
+width:120px ;
+}
+.div-card-2:hover .overlay2 {
+    width:120px ;
+    }/*last section*/
+    .divv{
+        background-color: azure;
+        height:150px ;
+        width:200px ;
+        margin-left:150px ;
+        background-color:#427D9D;
+    }
+    .divi{
+        background-color: #73b3b396;
+        height:60px ;
+        width:60px ;
+        margin-left:70px ;       
+        border-radius:20px ;
+    }
+    .btnp:hover{
+        color: aliceblue;
+        background-color:rgb(28, 36, 65);
+    }
+    .iy{
+        font-size:40px;
+        border-radius:5px;
+        color:rgb(25, 121, 199) ;
+    }
+    .divv p{
+        margin-left:25px ;
+        margin-top:10px ;
+    }
+    .divv  h2{
+        margin-left:15px ;
+    }
+    .container-x{
+        min-height:350px ;
+       min-width:500px ;
+margin-left:50px ;
+    }
+    .xx-img img{
+        height:60px ;
+        width:60px ;
+        border-radius:50% ;
+        margin-top:10px ;
+        margin-left:80px ;
+            }  
+              .xx-hr{ 
+                height:3px ;
+            width:460px;
+            background-color:whitesmoke ;
+            margin-left:25px ;
+            padding-top:2px ;
+            }
+            .xx-hr1{ 
+                height:3px ;
+            width:460px;
+            background-color:whitesmoke ;
+            padding-top:2px ;
+            margin-top:-10px ;
+            margin-left:25px ;
+            }
+            .xx-img p{
+                margin-left:180px;
+            }
+            .p-0:hover{
+            color:white ;
+            }
+
+
+
+
+    
+
+
+
